@@ -1,3 +1,9 @@
+##################################################
+# This is the implementation of kknn algorithm
+# Detail information can be found from the following url 
+# http://cran.rstudio.com/
+##################################################
+
 .onLoad  <- function(libname, pkgname) {
     library.dynam ("kknn", pkgname, libname)
 }
